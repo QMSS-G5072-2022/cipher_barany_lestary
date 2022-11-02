@@ -1,0 +1,44 @@
+:py:mod:`cipher_ljb2185.cipher_ljb2185`
+=======================================
+
+.. py:module:: cipher_ljb2185.cipher_ljb2185
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   cipher_ljb2185.cipher_ljb2185.cipher
+
+
+
+.. py:function:: cipher(text, shift, encrypt=True)
+
+   The cipher function converts the supplied text into an encrypted string
+   based on the amount of shifts in the alphabet.
+   For instance, if the letter is "a" and the shift is 3,
+   the function should return "d".
+
+   :param text:
+   :type text: the original text or the text the user wants to encrypt (type: string)
+   :param shift:
+   :type shift: the amount of shifts desired by the user in the alphabet (type: integer)
+   :param encrypt:
+   :type encrypt: modifying the text in either the process of encryption or decryption (type: boolean)
+
+   :rtype: The encrypted or decrypted new text
+
+   .. rubric:: Examples
+
+   >>> from cipher_ljb2185 import cipher_ljb2185
+   >>> cipher_ljb2185.cipher("example", 1, encrypt = True)
+       "fybnqmf"
+   >>> cipher_ljb2185.cipher("fybnqmf", 1, encrypt = False)
+       "example"
+
+

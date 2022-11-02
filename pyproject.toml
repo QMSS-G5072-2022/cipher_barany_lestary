@@ -1,14 +1,17 @@
 [tool.poetry]
 name = "cipher_ljb2185"
-version = "0.1.0"
+version = "0.1.1poetry publish -r test-pypi -u tbrambor@gmail.com -p"
 description = "Python package for encrytion technicque as part of MDS class deliverables"
 authors = ["Lestary J Barany"]
 license = "MIT"
 readme = "README.md"
+documentation = 'https://cipher-ljb2185.readthedocs.io/en/latest/'
+homepage = "https://github.com/QMSS-G5072-2022/cipher_barany_lestary"
+repository = "https://github.com/QMSS-G5072-2022/cipher_barany_lestary"
+
 
 [tool.poetry.dependencies]
 python = "^3.9"
-pandas = "^1.5.1"
 sphinx = "^5.3.0"
 pytest = "^7.2.0"
 

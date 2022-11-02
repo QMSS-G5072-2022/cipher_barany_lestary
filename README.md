@@ -18,7 +18,7 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## Documentation
 
-See the documentation here: https://readthedocs.org/projects/cipher-ljb2185/
+See the documentation here: [![Documentation Status](https://readthedocs.org/projects/cipher-ljb2185/badge/?version=latest)](https://cipher-ljb2185.readthedocs.io/en/latest/?badge=latest)
 
 ## License
 

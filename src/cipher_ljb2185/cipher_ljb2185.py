@@ -1,6 +1,6 @@
 
 
-def cipher(text, shift, encrypt=True):
+def cipher_ljb2185(text, shift, encrypt=True):
     """
     The cipher function converts the supplied text into an encrypted string
     based on the amount of shifts in the alphabet.
